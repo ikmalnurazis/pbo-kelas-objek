@@ -1,16 +1,15 @@
 public class Lingkaran {
-    private double jariJari;
-    public static final double PHI = 3.14;
+    private double jari2;
 
-    public Lingkaran(double jariJari) {
-        this.jariJari = jariJari;
+    public Lingkaran(double jari2) {
+        this.jari2 = jari2;
     }
 
-    public double hitungLuas() {
-        return PHI * jariJari * jariJari;
+    public double getJari2() {
+        return jari2;
     }
 
-    public double getJariJari() {
-        return jariJari;
+    public void setJari2(double jari2) {
+        this.jari2 = jari2;
     }
 }
